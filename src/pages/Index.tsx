@@ -23,7 +23,7 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-b from-white to-muted/30">
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">English with Elena</h1>
+          <h1 className="text-2xl font-bold text-primary">Английский с Анастасией</h1>
           <div className="hidden md:flex gap-6">
             <a href="#home" className="hover:text-primary transition-colors">Главная</a>
             <a href="#about" className="hover:text-primary transition-colors">Обо мне</a>
@@ -527,7 +527,7 @@ const Index = () => {
 
       <footer className="bg-foreground text-white py-12 px-4">
         <div className="container mx-auto text-center">
-          <h3 className="text-2xl font-bold mb-4">English with Elena</h3>
+          <h3 className="text-2xl font-bold mb-4">Английский с Анастасией</h3>
           <p className="text-white/70 mb-6">Профессиональное обучение английскому языку</p>
           <div className="flex justify-center gap-6 mb-6">
             <a href="#" className="hover:text-primary transition-colors">Instagram</a>
@@ -536,7 +536,7 @@ const Index = () => {
             <a href="#" className="hover:text-primary transition-colors">YouTube</a>
           </div>
           <div className="text-sm text-white/50">
-            © 2024 English with Elena. Все права защищены.
+            © 2024 Английский с Анастасией. Все права защищены.
           </div>
         </div>
       </footer>
