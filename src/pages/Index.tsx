@@ -48,16 +48,7 @@ const Index = () => {
               Индивидуальный подход к каждому ученику. Современные методики обучения. 
               Гарантированный результат уже через 3 месяца занятий.
             </p>
-            <div className="flex gap-4">
-              <Button size="lg" className="gap-2">
-                <Icon name="Calendar" size={20} />
-                Записаться на пробный урок
-              </Button>
-              <Button size="lg" variant="outline" className="gap-2">
-                <Icon name="Play" size={20} />
-                Смотреть видео
-              </Button>
-            </div>
+
             <div className="flex gap-8 pt-4">
               <div>
                 <div className="text-3xl font-bold text-primary">20</div>
