@@ -41,8 +41,8 @@ const Index = () => {
           <div className="space-y-6 animate-fade-in">
             <Badge className="bg-secondary text-white">Профессиональный преподаватель</Badge>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-              Английский язык —<br />
-              <span className="text-primary">легко и интересно</span>
+              Изучайте английский<br />
+              <span className="text-primary">с удовольствием</span>
             </h1>
             <p className="text-lg text-muted-foreground">
               Индивидуальный подход к каждому ученику. Современные методики обучения. 
