@@ -160,7 +160,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4">Курсы</Badge>
-            <h2 className="text-4xl font-bold mb-4">Программы обучения</h2>
+            <h2 className="text-4xl font-bold mb-4">Разделы обучения</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Выберите программу, которая подходит именно вам
             </p>
