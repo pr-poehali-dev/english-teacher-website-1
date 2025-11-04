@@ -86,22 +86,6 @@ const Index = () => {
               <Card className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex items-start gap-4">
-                    <div className="bg-primary/10 p-3 rounded-lg">
-                      <Icon name="Award" size={28} className="text-primary" />
-                    </div>
-                    <div>
-                      <CardTitle>Международные сертификаты</CardTitle>
-                      <CardDescription className="mt-2">
-                        CELTA (Cambridge), TESOL, TKT. Регулярное повышение квалификации и участие в международных конференциях.
-                      </CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-              </Card>
-
-              <Card className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <div className="flex items-start gap-4">
                     <div className="bg-secondary/10 p-3 rounded-lg">
                       <Icon name="GraduationCap" size={28} className="text-secondary" />
                     </div>
