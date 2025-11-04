@@ -42,16 +42,29 @@ const Index = () => {
             <Badge className="bg-secondary text-white">Профессиональный преподаватель</Badge>
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Английский язык —<br />
-              <span className="text-primary">материалы для работы и учёбы</span>
+              <span className="text-primary">легко и интересно</span>
             </h1>
             <p className="text-lg text-muted-foreground">
               Индивидуальный подход к каждому ученику. Современные методики обучения. 
               Гарантированный результат уже через 3 месяца занятий.
             </p>
-
+            <div className="flex gap-4">
+              <Button size="lg" className="gap-2">
+                <Icon name="Calendar" size={20} />
+                Записаться на пробный урок
+              </Button>
+              <Button size="lg" variant="outline" className="gap-2">
+                <Icon name="Play" size={20} />
+                Смотреть видео
+              </Button>
+            </div>
             <div className="flex gap-8 pt-4">
               <div>
-                <div className="text-3xl font-bold text-primary">20</div>
+                <div className="text-3xl font-bold text-primary">500+</div>
+                <div className="text-sm text-muted-foreground">Учеников</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-primary">10+</div>
                 <div className="text-sm text-muted-foreground">Лет опыта</div>
               </div>
               <div>
@@ -83,6 +96,22 @@ const Index = () => {
 
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <div className="flex items-start gap-4">
+                    <div className="bg-primary/10 p-3 rounded-lg">
+                      <Icon name="Award" size={28} className="text-primary" />
+                    </div>
+                    <div>
+                      <CardTitle>Международные сертификаты</CardTitle>
+                      <CardDescription className="mt-2">
+                        CELTA (Cambridge), TESOL, TKT. Регулярное повышение квалификации и участие в международных конференциях.
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+
               <Card className="hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <div className="flex items-start gap-4">
@@ -131,7 +160,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <Badge className="mb-4">Курсы</Badge>
-            <h2 className="text-4xl font-bold mb-4">Разделы обучения</h2>
+            <h2 className="text-4xl font-bold mb-4">Программы обучения</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Выберите программу, которая подходит именно вам
             </p>
@@ -141,28 +170,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-primary">
               <CardHeader>
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="FileCheck" size={24} className="text-primary" />
+                  <Icon name="Users" size={24} className="text-primary" />
                 </div>
-                <CardTitle>Тесты</CardTitle>
-                <CardDescription>Проверка знаний</CardDescription>
+                <CardTitle>Разговорный английский</CardTitle>
+                <CardDescription>Для уровней A1-C1</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Входное тестирование уровня</span>
+                    <span>Преодоление языкового барьера</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Промежуточный контроль</span>
+                    <span>Живое общение на актуальные темы</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Итоговая аттестация</span>
+                    <span>Расширение словарного запаса</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Анализ результатов</span>
+                    <span>Улучшение произношения</span>
                   </li>
                 </ul>
               </CardContent>
@@ -171,28 +200,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-secondary">
               <CardHeader>
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="FileText" size={24} className="text-secondary" />
+                  <Icon name="BookOpen" size={24} className="text-secondary" />
                 </div>
-                <CardTitle>Тексты с заданиями</CardTitle>
-                <CardDescription>Практические упражнения</CardDescription>
+                <CardTitle>Подготовка к экзаменам</CardTitle>
+                <CardDescription>IELTS, TOEFL, FCE, CAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Чтение с пониманием</span>
+                    <span>Изучение формата экзамена</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Грамматические упражнения</span>
+                    <span>Отработка всех навыков</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Работа с лексикой</span>
+                    <span>Пробные тесты и симуляции</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Практика письменной речи</span>
+                    <span>Стратегии успешной сдачи</span>
                   </li>
                 </ul>
               </CardContent>
@@ -201,28 +230,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-primary">
               <CardHeader>
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="GraduationCap" size={24} className="text-primary" />
+                  <Icon name="Briefcase" size={24} className="text-primary" />
                 </div>
-                <CardTitle>Подготовка к ОГЭ</CardTitle>
-                <CardDescription>9 класс</CardDescription>
+                <CardTitle>Деловой английский</CardTitle>
+                <CardDescription>Для профессионалов</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Все разделы экзамена</span>
+                    <span>Презентации и переговоры</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Пробные тесты ОГЭ</span>
+                    <span>Деловая переписка</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Разбор типовых заданий</span>
+                    <span>Профессиональная лексика</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Подготовка к устной части</span>
+                    <span>Бизнес-этикет и культура</span>
                   </li>
                 </ul>
               </CardContent>
