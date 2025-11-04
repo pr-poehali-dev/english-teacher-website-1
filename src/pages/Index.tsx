@@ -170,28 +170,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-primary">
               <CardHeader>
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="Users" size={24} className="text-primary" />
+                  <Icon name="FileCheck" size={24} className="text-primary" />
                 </div>
-                <CardTitle>Разговорный английский</CardTitle>
-                <CardDescription>Для уровней A1-C1</CardDescription>
+                <CardTitle>Тесты</CardTitle>
+                <CardDescription>Проверка знаний</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Преодоление языкового барьера</span>
+                    <span>Входное тестирование уровня</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Живое общение на актуальные темы</span>
+                    <span>Промежуточный контроль</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Расширение словарного запаса</span>
+                    <span>Итоговая аттестация</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Улучшение произношения</span>
+                    <span>Анализ результатов</span>
                   </li>
                 </ul>
               </CardContent>
@@ -200,28 +200,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-secondary">
               <CardHeader>
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="BookOpen" size={24} className="text-secondary" />
+                  <Icon name="FileText" size={24} className="text-secondary" />
                 </div>
-                <CardTitle>Подготовка к экзаменам</CardTitle>
-                <CardDescription>IELTS, TOEFL, FCE, CAE</CardDescription>
+                <CardTitle>Тексты с заданиями</CardTitle>
+                <CardDescription>Практические упражнения</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Изучение формата экзамена</span>
+                    <span>Чтение с пониманием</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Отработка всех навыков</span>
+                    <span>Грамматические упражнения</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Пробные тесты и симуляции</span>
+                    <span>Работа с лексикой</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-secondary shrink-0 mt-0.5" />
-                    <span>Стратегии успешной сдачи</span>
+                    <span>Практика письменной речи</span>
                   </li>
                 </ul>
               </CardContent>
@@ -230,28 +230,28 @@ const Index = () => {
             <Card className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-primary">
               <CardHeader>
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="Briefcase" size={24} className="text-primary" />
+                  <Icon name="GraduationCap" size={24} className="text-primary" />
                 </div>
-                <CardTitle>Деловой английский</CardTitle>
-                <CardDescription>Для профессионалов</CardDescription>
+                <CardTitle>Подготовка к ОГЭ</CardTitle>
+                <CardDescription>9 класс</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3">
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Презентации и переговоры</span>
+                    <span>Все разделы экзамена</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Деловая переписка</span>
+                    <span>Пробные тесты ОГЭ</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Профессиональная лексика</span>
+                    <span>Разбор типовых заданий</span>
                   </li>
                   <li className="flex gap-2">
                     <Icon name="Check" size={20} className="text-primary shrink-0 mt-0.5" />
-                    <span>Бизнес-этикет и культура</span>
+                    <span>Подготовка к устной части</span>
                   </li>
                 </ul>
               </CardContent>
